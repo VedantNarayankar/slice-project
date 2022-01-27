@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.header {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
+  padding: 10px;
+}
+
+.logo {
+  width: 104px;
+  height: 37.1px;
+  padding: 1.6px;
+}
+
+.menu {
+  list-style: none;
+  width: 360px;
+  height: 40px;
+  margin-right: 16px;
+}
+.item a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: POPPINS;
+  color: #4c576b;
+}
+.menu .item {
+  display: inline-block;
+  text-decoration: none;
+  width: max-content;
+  height: 21px;
+  padding: 6px 8px;
+}
+
+.body-container {
+  display: flex;
+  position: relative;
+  margin-right: 150px;
+  margin-left: 150px;
+  background-color: #fff;
+}
+.bold-font {
+  font-size: 65px;
+  font-weight: bold 700;
+  color: #203152;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
+  text-align: left;
+}
+.to-left {
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 40%;
+}
+.to-right {
+  display: inline-block;
+  flex-wrap: wrap;
+  max-height: 635px;
+  max-width: 100%;
+  margin-top: 15px;
+}
+.animation1 {
+  max-height: 635px;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  height: 76vh;
+}
+.descrip {
+  font-size: 30px;
+  color: #203152;
+  margin-top: 35px;
+  line-height: 1.35;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #203152;
+  border-radius: 50px 50px 50px 50px;
+  border: 1px solid #203152;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  border: #583e81;
+  background: #583e81;
+  color: #fff;
+  transition: 1s;
+}
+
+.descrip2 {
+  font-size: 24px;
+  color: #203152;
+  margin-top: 35px;
+  line-height: 1.35;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
